@@ -33,15 +33,25 @@ Each folder will represent:
 - A feature engineering experiment  
 - A model comparison study  
 
-Example structure (will grow over time):
+### Example Structure (will grow over time)
+
+```text
 ml-lab/
 │
 ├── 01-linear-regression/
+│   ├── implementation.ipynb
+│   ├── README.md
+│
 ├── 02-logistic-regression/
+│   ├── implementation.ipynb
+│   ├── README.md
+│
 ├── 03-knn/
-├── 04-decision-trees/
-├── 05-model-evaluation/
-├── ...
+│   ├── implementation.ipynb
+│   ├── README.md
+│
+└── ...
+```
 
 Each topic folder will typically contain:
 
